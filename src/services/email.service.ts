@@ -77,7 +77,7 @@ function buildContactHtml(contact: ContactEmail): string {
                   <tr>
                     <td style="padding:16px 0;border-bottom:1px solid #eef2f7;">
                       <strong style="display:block;color:#0a1628;margin-bottom:4px;">Mensaje</strong>
-                      <div style="white-space:pre-wrap;">${escapeHtml(contact.message)}</div>
+                      <div style="margin-top:8px;padding:16px;background:#f8fafc;border-left:4px solid #2563b5;border-radius:0 8px 8px 0;color:#1e293b;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere;">${escapeHtml(contact.message)}</div>
                     </td>
                   </tr>
                   <tr>
